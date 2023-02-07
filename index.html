@@ -5,42 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namaste Pratik</title>
+    <link rel="stylesheet" href="index.css"
 </head>
 <body>
     
-    <div id="header"><h1>Header</h1></div>
+    <!-- <div id="header"><h1>Header</h1></div> -->
     <div id="root">
        
        Not Rendered
     </div>
-    <div id="footer"><h1>Footer</h1></div>
+    <!-- <div id="footer"><h1>Footer</h1></div> -->
   
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-<script>
+<!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+<script type="module" src="App.js">
 //  const heading=React.createElement("h1",{
 //     id:"title",
 //  },"Hello EveryOne!!");
-const heading1=React.createElement(
-    "h1",
-    {
-        id:"title",
-    },
-    "Heading 1"
-);
-const heading2=React.createElement(
-    "h2",
-    {
-        id:"title",
-    },
-    "Heading 2"
-);
-const container=React.createElement("div",{
-    id:"container",
- },[heading1,heading2]);
 
-const root=ReactDOM.createRoot(document.getElementById("root"));
-root.render(container);
 
 </script>
 </body>
